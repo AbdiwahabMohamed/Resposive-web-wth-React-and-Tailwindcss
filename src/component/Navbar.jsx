@@ -19,7 +19,7 @@ const Navbar = () => {
         <li className="p-4">Contacts</li>
       </ul>
       <div onClick={handleNav} className="block md:hidden">
-        {!nav ? <i class="bi bi-list"></i> : <i class="bi bi-x-lg"></i>}
+        {!nav ? <i className="bi bi-list"></i> : <i className="bi bi-x-lg"></i>}
       </div>
 
       <ul
